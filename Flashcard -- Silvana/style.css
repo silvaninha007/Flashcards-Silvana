@@ -1,6 +1,14 @@
+:root {
+    --texto-principal: rgb(119, 68, 139);
+    --texto-pergunta: #3c1858;
+    --texto-resposta: rgb(127, 89, 131);
+}
+
 body {
-    background-color: rgb(241, 214, 240);
-    font-family: Bai Jamjuree;
+    background: url('roxooo.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: Bai jamjuree;
 }
 
 #container {
@@ -9,7 +17,8 @@ body {
 
 .cartao {
     margin: 1rem 1rem;
-    background-color: rgb(184, 149, 218);
+    background-color: rgb(205, 176, 233);
+    border: 1px solid var(--texto-principal);
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
@@ -17,12 +26,14 @@ body {
 
 .cartao__conteudo {
     text-align: center;
-    background-color: rgb(203, 165, 240);
+    color: var(--texto-principal);
+    border: 1px solid var(--texto-principal);
     height: 100%;
 }
 
 .cartao__conteudo h3 {
-    background-color: rgb(107, 54, 156);
+    color: var(--texto-principal);
+    border: 1px solid var(--texto-principal);
     text-align: left;
     padding: 0.5rem;
     position: absolute;
@@ -32,8 +43,17 @@ body {
 
 }
 
+.cartao__conteudo__pergunta p{
+    color: var(--texto-pergunta);
+    font-weight: 600;
+    font-size: 24px;
+}
 
-
+.cartao__conteudo__resposta p{
+    color: var(--texto-resposta);
+    font-weight: 900;
+    font-size: 20px;
+}
 
 
 
