@@ -5,13 +5,13 @@ criaCartao (
 )
 
 criaCartao (
-    'Taylor Swift',
-    'Qual a melhor música dela?', 
-    'Wildest Dreams.'
+    'Corinthians',
+    'Em que ano foi fundado o Corinthians?', 
+    'O Corinthians foi fundado dia 1 de setembro de 1910.'
 )
 
 criaCartao (
-    'Futebol',
-    'Quem é o melhor jogador do mundo (atualmente)?', 
-    'Vini Jr.'
+    'Esporte',
+    'Qual o melhor esporte atualmente?', 
+    'Voleibol.'
 )
